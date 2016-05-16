@@ -27,6 +27,7 @@
 		0F22C616BDD0467082F846DC /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D152BA31FB4B12943FF321 /* CDVNotification.m */; };
 		94814B5F5E654AD89C53F19E /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5749FFDF3EE24507BF3C7168 /* CDVNotification.bundle */; };
 		02735A4118DE4320A256E5BD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C82E182D1B4C30AE1B9548 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		644AE5C37C6647A9B8A69715 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8ABD130233418CB746CCD1 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		9B2A55EF76134AD08B95F7ED /* CDVNotification.h */ = {isa = PBXFileReference; name = "CDVNotification.h"; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		5749FFDF3EE24507BF3C7168 /* CDVNotification.bundle */ = {isa = PBXFileReference; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
 		12C82E182D1B4C30AE1B9548 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BA8ABD130233418CB746CCD1 /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B9B7F1BE55FD4BC5BB5674B5 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +212,8 @@
 				B53E976FA5E94ABEA0969F55 /* CDVReachability.h */,
 				48D152BA31FB4B12943FF321 /* CDVNotification.m */,
 				9B2A55EF76134AD08B95F7ED /* CDVNotification.h */,
+				BA8ABD130233418CB746CCD1 /* CDVStatusBar.m */,
+				B9B7F1BE55FD4BC5BB5674B5 /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -332,6 +337,7 @@
 				0D8AEB3BC3E744D0A3D0C11E /* CDVConnection.m in Sources */,
 				1820899DB1004CB08CCE8809 /* CDVReachability.m in Sources */,
 				0F22C616BDD0467082F846DC /* CDVNotification.m in Sources */,
+				644AE5C37C6647A9B8A69715 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
